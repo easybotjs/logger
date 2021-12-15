@@ -1,0 +1,33 @@
+{
+    "name": "@easybotjs/logger",
+    "version": "0.0.3",
+    "description": "Adds logging to your bot using pino",
+    "type": "module",
+    "license": "GNU GPLv3",
+    "author": "McCoughskii",
+    "repository": "https://github.com/easybotjs/EasyBot",
+    "scripts": {
+        "pretest": "npm run build",
+        "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest --pass-with-no-tests",
+        "build": "tsc --build tsconfig.json",
+        "clean": "rimraf dist"
+    },
+    "module": "./dist/index.js",
+    "typings": "./dist/index.d.ts",
+    "exports": {
+        "import": "./dist/index.js"
+    },
+    "directories": {
+        "lib": "src",
+        "test": "__tests__"
+    },
+    "files": [
+        "dist"
+    ],
+    "devDependencies": {
+        "cross-env": "^7.0.3"
+    },
+    "dependencies": {
+        "pino": "^7.5.1"
+    }
+}

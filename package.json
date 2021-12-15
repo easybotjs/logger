@@ -25,9 +25,14 @@
         "dist"
     ],
     "devDependencies": {
-        "cross-env": "^7.0.3"
+        "cross-env": "^7.0.3",
+        "dotenv": "^10.0.0"
     },
     "dependencies": {
         "pino": "^7.5.1"
+    },
+    "optionalDependencies": {
+        "@easybotjs/core": "^0.0.5",
+        "pino-pretty": "^7.3.0"
     }
 }

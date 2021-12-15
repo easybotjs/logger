@@ -1,4 +1,4 @@
-import { EasyBot } from "../../../core/dist/index.js";
+import { EasyBot } from "@easybotjs/core";
 import pino, { P } from "pino";
 
 export function logger(options?: P.LoggerOptions, bot?: EasyBot): P.Logger {

@@ -4,7 +4,7 @@
 		"rootDir": "./src",
 		"outDir": "dist",
 
-		"lib": ["es2021"],
+		"lib": ["es2021", "DOM"],
 		"module": "ES6",
 		"target": "es2021",
 

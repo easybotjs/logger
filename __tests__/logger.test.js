@@ -1,7 +1,7 @@
 import { logger } from '../dist/index.js';
 
 describe('Logger', () => {
-    test('Test', () => {
+    test('Initialize Logger', () => {
         const Logger = logger({
             level: 'debug',
             transport: {

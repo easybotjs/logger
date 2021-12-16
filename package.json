@@ -1,6 +1,6 @@
 {
     "name": "@easybotjs/logger",
-    "version": "0.0.3",
+    "version": "v1.0.0",
     "description": "Adds logging to your bot using pino",
     "type": "module",
     "license": "GNU GPLv3",

@@ -31,7 +31,7 @@
         "typescript": "^4.5.4"
     },
     "dependencies": {
-        "pino": "^7.6.1"
+        "pino": "^7.6.2"
     },
     "optionalDependencies": {
         "@easybotjs/core": "^0.0.5",

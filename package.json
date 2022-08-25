@@ -35,6 +35,6 @@
     },
     "optionalDependencies": {
         "@easybotjs/core": "^0.0.5",
-        "pino-pretty": "^7.3.0"
+        "pino-pretty": "^9.1.0"
     }
 }
